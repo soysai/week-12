@@ -1,0 +1,57 @@
+body{
+    margin: 50px;
+}
+
+.header{
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.pokemon{
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+
+}
+#point{
+    cursor: pointer;
+    color: orange;
+}
+
+.description{
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+#gif{
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+button{
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: black dashed;
+    background-color: white;
+}
+
+button:hover{
+    background-color: orange;
+}
