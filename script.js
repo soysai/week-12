@@ -5,6 +5,11 @@ const version = document.getElementById("version");
 const level = document.getElementById("level");
 const description = document.querySelector('.description');
 
+//to play audio on random // -----> With the help of ChatGPT
+function playSound() {
+  var audio = document.getElementById("sound");
+  audio.play();
+}
 
 fetch("https://pokeapi.co/api/v2/pokemon/charmander")
 .then(response => response.json())
@@ -28,6 +33,7 @@ fetch("https://pokeapi.co/api/v2/pokemon/charmander")
     container.appendChild(moveElement);
     moveElement.addEventListener("click", () => {
       showDetails(move);
+        playSound();
     });
 
   });
